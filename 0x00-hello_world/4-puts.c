@@ -3,8 +3,8 @@
 /**
  * main: Print text followed by new line
  *
- * Description: That is achieved through puts funtion
- * 
+ * description: That is achieved through puts funtion
+ *
  * Return: The program returns 0
  */
 
