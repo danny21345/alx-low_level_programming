@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main: Print text followed by new line
+ * main - Print text followed by new line
  *
- * description: That is achieved through puts funtion
+ * This Program prints Programming is like building a multilingual puzzle
  *
  * Return: The program returns 0
  */
