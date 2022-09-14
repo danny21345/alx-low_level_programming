@@ -2,15 +2,16 @@
 
 /**
 * _islower - used to check lowercase letter
+* @o: character to be checked
 *
 * Checks whether letter is capital or not
 *
 * Return: returns 1 on success
 */
 
-int _islower(int c)
+int _islower(int o)
 {
-	if ((c >= 'a') && (c <= 'z'))
+	if ((o >= 'a') && (o <= 'z'))
 	{
 		return (1);
 	}
