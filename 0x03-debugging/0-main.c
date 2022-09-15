@@ -1,10 +1,7 @@
 #include "main.h"
 
 /**
-* main - tests whether a number is - or +
-*
-* This is achieved using positive_or_negative()
-*
+* main - tests function that prints if integer is positive or negative
 * Return: returns 0
 */
 
