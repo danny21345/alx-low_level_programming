@@ -16,15 +16,11 @@ void more_numbers(void)
 		k = 0;
 		while (k < 15)
 		{
-			if (k < 10)
-			{
-				_putchar(k + '0');
-			}
-			else
+			if (k > 9)
 			{
 				_putchar('1');
-				_putchar((k % 10) + '0');
 			}
+			_putchar((k % 10) + '0');
 			k++;
 		}
 		_putchar('\n');
