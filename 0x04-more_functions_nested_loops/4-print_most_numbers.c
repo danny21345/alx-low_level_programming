@@ -8,10 +8,10 @@
 
 void print_most_numbers(void)
 {
-	char k;
+	int k;
 
-	k = '0';
-	while (k <= '9')
+	k = 0;
+	while (k <= 9)
 	{
 		if ((k == '2') || (k == '4'))
 		{
@@ -19,7 +19,7 @@ void print_most_numbers(void)
 		}
 		else
 		{
-			_putchar(k);
+			_putchar(k + '0');
 		}
 		k++;
 	}
