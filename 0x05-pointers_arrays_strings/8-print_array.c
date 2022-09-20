@@ -4,7 +4,7 @@
 /**
 * print_array - prints array of integers
 * @a: the first parameter
-* @b: second parameter
+* @n: second parameter
 *
 * Return: void
 */
