@@ -9,15 +9,15 @@
 int main(void)
 {
 	int f = 48;
-	int g = 48;
+	int g = 49;
 
-	while (f <= 57)
+	while (f <= 56)
 	{
 		while (g <= 57)
 		{
 			putchar(f);
 			putchar(g);
-			if ((f != 57) || (g != 28))
+			if ((f != 57) || (g != 57))
 			{
 				putchar(',');
 				putchar(' ');
