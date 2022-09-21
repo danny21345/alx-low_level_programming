@@ -4,7 +4,7 @@
 /**
 * main - prints given text to stdout
 *
-* Return: returns 0
+* Return: returns 1 on success
 */
 
 int main(void)
@@ -13,5 +13,5 @@ int main(void)
 
 	s = sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", s);
-	return (0);
+	return (1);
 }
