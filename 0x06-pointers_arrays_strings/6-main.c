@@ -12,16 +12,16 @@ int main(void)
 	char str[] = "Expect the best. Prepare for the worst.";
 	char str1[] = " Capitalize on what comes.\nhello world! hello-world";
 	char str2[] = " 0123456hello world\thello world.hello world\n";
-	char *ptr, *ptr1, *ptr2;
+	char *ptr;
 
 	ptr = cap_string(str);
 	printf("%s", ptr);
 	printf("%s", str);
-	ptr1 = cap_string(str1);
-	printf("%s", ptr1);
+	ptr = cap_string(str1);
+	printf("%s", ptr);
 	printf("%s", str1);
-	ptr2 = cap_string(str2);
-	printf("%s", ptr2);
+	ptr = cap_string(str2);
+	printf("%s", ptr);
 	printf("%s", str2);
 	return (0);
 }
