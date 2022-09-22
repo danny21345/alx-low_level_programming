@@ -8,23 +8,23 @@
 
 int main(void)
 {
-	int f = 48;
-	int g = 49;
+	int f = '0';
+	int g = '1';
 
-	while (f <= 56)
+	while (f <= '8')
 	{
-		while (g <= 57)
+		while (g <= '9')
 		{
 			putchar(f);
 			putchar(g);
-			if ((f != 57) || (g != 57))
+
+			if (g != '9')
 			{
-				putchar(',');
-				putchar(' ');
+				 putchar(',');
+				 putchar(' ');
 			}
 			g++;
 		}
-		g = 48;
 		f++;
 	}
 	putchar('\n');
